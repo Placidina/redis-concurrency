@@ -1,0 +1,41 @@
+{
+  "name": "redis-concurrency",
+  "version": "1.0.0",
+  "description": "Redis concurrency",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project ./",
+    "build": "tsc --p ./ && find . -name '*.mjml' -exec cp --parents \\{\\} dist/ \\;"
+  },
+  "keywords": [],
+  "author": "Alan Placidina Maria",
+  "license": "ISC",
+  "engines": {
+    "node": "10.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Placidina/redis-concurrency.git"
+  },
+  "contributors": [
+    "alanplacidina@gmail.com"
+  ],
+  "bugs": {
+    "url": "https://github.com/Placidina/redis-concurrency/issues"
+  },
+  "homepage": "https://github.com/Placidina/redis-concurrency#readme",
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-eslint-rules": "^5.4.0"
+  },
+  "dependencies": {
+    "@types/redis": "^2.8.11",
+    "@types/redlock": "^3.0.2",
+    "redis": "^2.8.0",
+    "redlock": "^3.1.2",
+    "typescript": "^3.3.3333"
+  }
+}

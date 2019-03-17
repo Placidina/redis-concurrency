@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "sourceMap": true,
+        "inlineSources": true,
+        "sourceRoot": "/",
+        "outDir": "./dist",
+        "removeComments": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "strictPropertyInitialization": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "@types/node"
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
