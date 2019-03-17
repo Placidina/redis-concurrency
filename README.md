@@ -2,9 +2,10 @@
 
 Simple example in `typescrip` to sharing memory on multiples process using redis.
 
-## Requeriments
+## Requirements
 
 * NodeJs >= `10.15.0`
+* Redis
 
 ## Run
 
